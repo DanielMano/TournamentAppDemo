@@ -179,6 +179,7 @@
             // 
             // scoreButton
             // 
+            this.scoreButton.BackColor = System.Drawing.Color.White;
             this.scoreButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.scoreButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.scoreButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
@@ -190,7 +191,7 @@
             this.scoreButton.Size = new System.Drawing.Size(123, 54);
             this.scoreButton.TabIndex = 13;
             this.scoreButton.Text = "Score";
-            this.scoreButton.UseVisualStyleBackColor = true;
+            this.scoreButton.UseVisualStyleBackColor = false;
             // 
             // TournamentViewerForm
             // 
